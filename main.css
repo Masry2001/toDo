@@ -1,0 +1,78 @@
+
+
+
+.form {
+    padding: 20px;
+    background-color: #eeee;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.form .input {
+    padding: 10px;
+    border-style: none;
+    width: 75%;
+    border-radius: 6px;
+    caret-color: aqua;
+    outline-color: transparent;
+    margin-bottom: 15px;
+    color: #32bcbc;
+    height: 25px;
+}
+
+.form .add {
+    border-radius: 6px;
+    background-color: #1d6cff;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    outline-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+.tasks {
+    background-color: #eeee;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto 20px;
+
+}
+
+.tasks .task {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.tasks .task:hover {
+    background-color: #f7f7f7;
+}
+
+.tasks .task.done {
+    opacity: 0.5;
+}
+
+.tasks .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #ff217c;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
